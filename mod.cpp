@@ -1,5 +1,5 @@
 name = "GM Retextures";
-picture = "";
+picture = "GM_RE_Logo.paa";
 actionName = "";
 action = "";
 logo = "\CUP\Terrains\cup_terrains_core\CUP_Terrains_Logo_mod.paa";
