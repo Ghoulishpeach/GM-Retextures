@@ -1,1 +1,1 @@
-# GM-Retextures
+# @GMRE
