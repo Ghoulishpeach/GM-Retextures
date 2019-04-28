@@ -7,10 +7,10 @@ class cfgWeapons
                 author= "Peach";
                 scope = 2;
                 displayName = "M/75 Field Dress";
-                picture = "";
-                model = "";
-                hiddenSelections[] = {""};
-                hiddenSelectionsTextures[] = {""};
+                picture = "PLACEHOLDER";
+                model = "PLACEHOLDER";
+                hiddenSelections[] = {"M/75 Pattern"};
+                hiddenSelectionsTextures[] = {"path/gmre_nor_m75.paa"};
 
         class ItemInfo: uniformitem
         {
