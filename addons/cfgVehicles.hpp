@@ -14,19 +14,19 @@
 	#define mag_12(a) a, a, a, a, a, a, a, a, a, a, a, a
 	#define mag_26(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 
-	class gm_ge_army_rifleman_g3a3_80_ols;
-    class gmre_nor_m75_base : gm_ge_army_rifleman_g3a3_80_ols
+class gm_ge_army_rifleman_g3a3_80_ols;
+class gmre_nor_m75_base : gm_ge_army_rifleman_g3a3_80_ols
 	{
-		_generalMacro 		 	= "gmre_nor_m75_base";
-		editorPreview 		 	= "";
-		side 				 	= 0;
-		scope 				 	= 1;
-		scopecurator 		 	= 2;
-		faction 			 	= gmre_nor; // Puts unit under new faction
-		vehicleClass 		 	= "forsvaret"; // Puts unit in the vehicleclass
-		nakedUniform 			= "U_BasicBody";
-		uniformClass 			= "gmre_nor_m75";  // Uniform Class
-		backpack 			 	= "gm_dk_army_backpack_73_oli"; // Backpack Class
+		_generalMacro 		= "gmre_nor_m75_base";
+		editorPreview 		= "";
+		side 			= 0;
+		scope 			= 1;
+		scopecurator 		= 2;
+		faction 		= gmre_nor; // Puts unit under new faction
+		vehicleClass 		= "forsvaret"; // Puts unit in the vehicleclass
+		nakedUniform 		= "U_BasicBody";
+		uniformClass 		= "gmre_nor_m75";  // Uniform Class
+		backpack 		= "gm_dk_army_backpack_73_oli"; // Backpack Class
 		linkedItems[]        	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
 		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
