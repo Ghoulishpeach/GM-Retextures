@@ -1,8 +1,8 @@
 class cfgWeapons
 {
-    class placeholderclass;
-      
-    class placeholderclass: placeholderclass
+    class uniformitem;
+
+    class gmre_nor_m75: uniformitem
     {
         author = "Peach";
         scope = 2;
@@ -11,11 +11,11 @@ class cfgWeapons
         model = "";
         hiddenSelections[] = {""};
         hiddenSelectionsTextures[] = {""};
-         
-        class ItemInfo: placeholderclass
+
+        class ItemInfo: uniformitem
         {
             uniformModel = "-";
-            uniformClass = placeholderclass;
+            uniformClass = gmre_nor_m75;
             containerClass = Supply40;
             mass = 40;
         };

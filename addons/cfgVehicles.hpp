@@ -15,7 +15,7 @@
 	#define mag_26(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
 
 	class ;
-    class  : 
+    class  :
 	{
 		_generalMacro = "";
 		editorPreview = "";
@@ -33,7 +33,7 @@
 		items[]              = {"ACE_packingBandage", "ACE_fieldDressing", "ACE_morphine", "ACE_tourniquet"};
 		respawnItems[]       = {"ACE_packingBandage", "ACE_fieldDressing", "ACE_morphine", "ACE_tourniquet"};
 	};
-	
+
 SAMPLE BLANK CLASS
 
 	{
@@ -57,4 +57,3 @@ iconManAT = "\A3\ui_f\data\map\vehicleicons\iconManAT_ca.paa";
 iconManLeader = "\A3\ui_f\data\map\vehicleicons\iconManLeader_ca.paa";
 iconManMG = "\A3\ui_f\data\map\vehicleicons\iconManMG_ca.paa";
 iconManOfficer = "\A3\ui_f\data\map\vehicleicons\iconManOfficer_ca.paa";
-*/
