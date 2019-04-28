@@ -55,4 +55,4 @@ iconManVirtual = "\A3\ui_f\data\map\vehicleicons\iconManVirtual_ca.paa";
 iconManAT = "\A3\ui_f\data\map\vehicleicons\iconManAT_ca.paa";
 iconManLeader = "\A3\ui_f\data\map\vehicleicons\iconManLeader_ca.paa";
 iconManMG = "\A3\ui_f\data\map\vehicleicons\iconManMG_ca.paa";
-iconManOfficer = "\A3\ui_f\data\map\vehicleicons\iconManOfficer_ca.paa";*/
+iconManOfficer = "\A3\ui_f\data\map\vehicleicons\iconManOfficer_ca.paa";*/ 
