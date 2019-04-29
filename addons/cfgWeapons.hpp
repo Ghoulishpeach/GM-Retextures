@@ -15,7 +15,7 @@ class cfgWeapons
                 class ItemInfo: uniformitem
                 {
                         uniformModel = "-";
-                        uniformClass = gmre_nor_m75;
+                        uniformClass = gmre_nor_rifleman_g3a3_80_m75;
                         containerClass = Supply40;
                         mass = 40;
                 };
