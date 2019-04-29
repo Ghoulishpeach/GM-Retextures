@@ -8,7 +8,8 @@ class cfgWeapons
                 scope = 2;
                 displayName = "M/75 Field Dress";
                 picture = "PLACEHOLDER";
-                model = "PLACEHOLDER";
+                model = "\A3\Characters_F\Common\Suitpacks\data\suitpack_soldier_blufor_co.paa
+";
                 hiddenSelections[] = {"M/75 Pattern"};
                 hiddenSelectionsTextures[] = {"path/gmre_nor_m75.paa"};
 
