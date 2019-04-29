@@ -13,25 +13,6 @@
 	#define mag_11(a) a, a, a, a, a, a, a, a, a, a, a
 	#define mag_12(a) a, a, a, a, a, a, a, a, a, a, a, a
 	#define mag_26(a) a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a, a
-
-class uniformitem;
-class gmre_nor_m75: uniformitem
-{
-	scope = 2;
-	scopeCurator = 2;
-	displayName = "M/75 Field Dress";
-	author = "Peach";
-	vehicleClass = ItemsUniforms;
-	model = "PLACEHOLDER";
-	class TransportItems
-        {
-		class gmre_nor_m75
-		{
-			name = gmre_nor_m75;
-			count = 1;
-		};
-	};
-};
 class gm_ge_army_rifleman_80_oli;
 class gm_ge_army_rifleman_80_ols;
 class gm_ge_army_rifleman_parka_80_oli;
