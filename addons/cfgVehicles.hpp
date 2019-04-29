@@ -38,7 +38,7 @@ class gmre_nor_m75_base : gm_ge_army_rifleman_80_ols
 	};
 class gmre_nor_ols_base : gm_ge_army_rifleman_g3a3_80_ols
 	{
-		_generalMacro 		= "gmre_nor_m75_base";
+		_generalMacro 		= "gmre_nor_ols_base";
 		editorPreview 		= "";
 		side 			= 0;
 		scope 			= 1;
@@ -55,7 +55,7 @@ class gmre_nor_ols_base : gm_ge_army_rifleman_g3a3_80_ols
 	};
 class gmre_nor_oli_base : gm_ge_army_rifleman_80_oli
 	{
-		_generalMacro 		= "gmre_nor_m75_base";
+		_generalMacro 		= "gmre_nor_oli_base";
 		editorPreview 		= "";
 		side 			= 0;
 		scope 			= 1;
@@ -72,7 +72,7 @@ class gmre_nor_oli_base : gm_ge_army_rifleman_80_oli
 	};
 class gmre_nor_parka_oli_base : gm_ge_army_rifleman_parka_80_oli
 	{
-		_generalMacro 		= "gmre_nor_m75_base";
+		_generalMacro 		= "gmre_nor_parka_oli_base";
 		editorPreview 		= "";
 		side 			= 0;
 		scope 			= 1;
@@ -89,7 +89,7 @@ class gmre_nor_parka_oli_base : gm_ge_army_rifleman_parka_80_oli
 	};
 class gmre_nor_parka_ols_base : gm_ge_army_rifleman_parka_80_ols
 	{
-		_generalMacro 		= "gmre_nor_m75_base";
+		_generalMacro 		= "gmre_nor_parka_ols_base";
 		editorPreview 		= "";
 		side 			= 0;
 		scope 			= 1;
@@ -106,7 +106,7 @@ class gmre_nor_parka_ols_base : gm_ge_army_rifleman_parka_80_ols
 	};
 class gmre_nor_parka_win_base : gm_ge_army_rifleman_parka_80_win
 	{
-		_generalMacro 		= "gmre_nor_m75_base";
+		_generalMacro 		= "gmre_nor_parka_win_base";
 		editorPreview 		= "";
 		side 			= 0;
 		scope 			= 1;
@@ -121,12 +121,29 @@ class gmre_nor_parka_win_base : gm_ge_army_rifleman_parka_80_win
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//identical to items[]
 	};
+class gmre_nor_crew_base : gm_ge_army_crew_80_oli
+	{
+		_generalMacro 		= "gmre_nor_crew_base";
+		editorPreview 		= "";
+		side 			= 0;
+		scope 			= 1;
+		scopecurator 		= 2;
+		faction 		= gmre_nor; // Puts unit under new faction
+		vehicleClass 		= "forsvaret"; // Puts unit in the vehicleclass
+		nakedUniform 		= "U_BasicBody";
+		uniformClass 		= "gm_ge_army_uniform_crew_80_oli";  // Uniform Class
+		backpack 		= "gm_ge_backpack_satchel_80_blk"; // Backpack Class
+		linkedItems[]        	= {"gm_ge_army_vest_80_crew","gm_gc_army_headgear_crewhat_80_blk","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
+		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_crew","gm_gc_army_headgear_crewhat_80_blk","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
+		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};
+		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};
+	};
 #include "cfgAnti_Tank.hpp"
 #include "cfgAnti_Tank_Assistant.hpp"
 #include "cfgCrew.hpp"
 #include "cfgDemolition.hpp"
 #include "cfgEngineer.hpp"
-#include "cfgGrenadier.hpp"
+//#include "cfgGrenadier.hpp"
 #include "cfgMachine_Gunner.hpp"
 #include "cfgMachine_Gunner_Assistant.hpp"
 #include "cfgMedic.hpp"
@@ -179,4 +196,15 @@ class gmre_nor_crew : gmre_nor_oli_base
 		respawnweapons[] 	= {"gm_g3a3_oli","gm_ferod16_oli"}; // Weapons added to the unit. Should be identical to the weapons section
 		magazines[] 		= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51)}; //Should be identical to respawnmagazines[]
-	};*/
+	};
+
+iconMan = "\A3\ui_f\data\map\vehicleicons\iconMan_ca.paa";
+iconManMedic = "\A3\ui_f\data\map\vehicleicons\iconManMedic_ca.paa";
+iconManEngineer = "\A3\ui_f\data\map\vehicleicons\iconManEngineer_ca.paa";
+iconManExplosive = "\A3\ui_f\data\map\vehicleicons\iconManExplosive_ca.paa";
+iconManRecon = "\A3\ui_f\data\map\vehicleicons\iconManRecon_ca.paa";
+iconManVirtual = "\A3\ui_f\data\map\vehicleicons\iconManVirtual_ca.paa";
+iconManAT = "\A3\ui_f\data\map\vehicleicons\iconManAT_ca.paa";
+iconManLeader = "\A3\ui_f\data\map\vehicleicons\iconManLeader_ca.paa";
+iconManMG = "\A3\ui_f\data\map\vehicleicons\iconManMG_ca.paa";
+iconManOfficer = "\A3\ui_f\data\map\vehicleicons\iconManOfficer_ca.paa";*/
