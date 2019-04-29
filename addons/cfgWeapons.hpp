@@ -12,12 +12,12 @@ class cfgWeapons
                 hiddenSelections[] = {"M/75 Pattern"};
                 hiddenSelectionsTextures[] = {"path/gmre_nor_m75.paa"};
 
-        class ItemInfo: uniformitem
-        {
-                uniformModel = "-";
-                uniformClass = gmre_nor_m75;
-                containerClass = Supply40;
-                mass = 40;
-        };
+                class ItemInfo: uniformitem
+                {
+                        uniformModel = "-";
+                        uniformClass = gmre_nor_m75;
+                        containerClass = Supply40;
+                        mass = 40;
+                };
         };
 };
