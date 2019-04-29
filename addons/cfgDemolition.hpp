@@ -1,4 +1,4 @@
-class gmre_nor_demolition_g3a4_80_oli
+class gmre_nor_demolition_g3a4_80_oli : gmre_nor_oli_base
 	{
 		_generalMacro 		= "gmre_nor_demolition_g3a4_80_oli";
 		scope 			= 2;
@@ -9,7 +9,7 @@ class gmre_nor_demolition_g3a4_80_oli
 		magazines[] 		= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_demolition_g3a4_80_ols
+class gmre_nor_demolition_g3a4_80_ols : gmre_nor_ols_base
 	{
 		_generalMacro 		= "gmre_nor_demolition_g3a4_80_oli";
 		scope 			= 2;
@@ -20,7 +20,7 @@ class gmre_nor_demolition_g3a4_80_ols
 		magazines[] 		= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_demolition_g3a4_parka_80_oli
+class gmre_nor_demolition_g3a4_parka_80_oli : gmre_nor_parka_oli_base
 	{
 		_generalMacro 		= "gmre_nor_demolition_g3a4_80_oli";
 		scope 			= 2;
@@ -31,7 +31,7 @@ class gmre_nor_demolition_g3a4_parka_80_oli
 		magazines[] 		= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_demolition_g3a4_parka_80_ols
+class gmre_nor_demolition_g3a4_parka_80_ols : gmre_nor_parka_ols_base
 	{
 		_generalMacro 		= "gmre_nor_demolition_g3a4_80_oli";
 		scope 			= 2;
@@ -42,7 +42,7 @@ class gmre_nor_demolition_g3a4_parka_80_ols
 		magazines[] 		= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_demolition_g3a4_parka_80_win
+class gmre_nor_demolition_g3a4_parka_80_win : gmre_nor_parka_win_base
 	{
 		_generalMacro 		= "gmre_nor_demolition_g3a4_80_oli";
 		scope 			= 2;
@@ -53,7 +53,7 @@ class gmre_nor_demolition_g3a4_parka_80_win
 		magazines[] 		= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_20Rnd_762x51mm_B_T_DM21A1_g3_blk),mag_3(gm_20Rnd_762x51mm_B_T_DM21A2_g3_blk),mag_2(gm_handgrenade_frag_dm51),mag_2(gm_explosive_petn_charge),mag_2(gm_explosive_plnp_charge)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_demolition_g3a4_80_m75
+class gmre_nor_demolition_g3a4_80_m75 : gmre_nor_m75_base
 	{
 		_generalMacro 		= "gmre_nor_demolition_g3a4_80_oli";
 		scope 			= 2;

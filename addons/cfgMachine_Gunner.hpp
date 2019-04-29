@@ -1,4 +1,4 @@
-class gmre_nor_machinegunner_mg3_80_oli
+class gmre_nor_machinegunner_mg3_80_oli : gmre_nor_oli_base
 	{
 		_generalMacro 		= "gmre_nor_machinegunner_mg3_80_oli";
 		scope 			= 2;
@@ -9,7 +9,7 @@ class gmre_nor_machinegunner_mg3_80_oli
 		magazines[] 		= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_machinegunner_mg3_80_ols
+class gmre_nor_machinegunner_mg3_80_ols : gmre_nor_ols_base
 	{
 		_generalMacro 		= "gmre_nor_machinegunner_mg3_80_ols";
 		scope 			= 2;
@@ -20,7 +20,7 @@ class gmre_nor_machinegunner_mg3_80_ols
 		magazines[] 		= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_machinegunner_mg3_parka_80_oli
+class gmre_nor_machinegunner_mg3_parka_80_oli : gmre_nor_parka_oli_base
 	{
 		_generalMacro 		= "gmre_nor_machinegunner_mg3_parka_80_oli";
 		scope 			= 2;
@@ -31,7 +31,7 @@ class gmre_nor_machinegunner_mg3_parka_80_oli
 		magazines[] 		= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_machinegunner_mg3_parka_80_ols
+class gmre_nor_machinegunner_mg3_parka_80_ols : gmre_nor_parka_ols_base
 	{
 		_generalMacro 		= "gmre_nor_machinegunner_mg3_parka_80_ols";
 		scope 			= 2;
@@ -42,7 +42,7 @@ class gmre_nor_machinegunner_mg3_parka_80_ols
 		magazines[] 		= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_machinegunner_mg3_parka_80_win
+class gmre_nor_machinegunner_mg3_parka_80_win : gmre_nor_parka_win_base
 	{
 		_generalMacro 		= "gmre_nor_machinegunner_mg3_parka_80_win";
 		scope 			= 2;
@@ -53,7 +53,7 @@ class gmre_nor_machinegunner_mg3_parka_80_win
 		magazines[] 		= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //I'm going with 6 standard mags, 3 tracer magazines, and 2 frag grenades.
 		Respawnmagazines[] 	= {mag_6(gm_120rnd_762x51mm_b_t_dm21_mg3_grn),mag_2(gm_handgrenade_frag_dm51)}; //Should be identical to respawnmagazines[]
 	};
-class gmre_nor_machinegunner_mg3_80_m75
+class gmre_nor_machinegunner_mg3_80_m75 : gmre_nor_m75_base
 	{
 		_generalMacro 		= "gmre_nor_machinegunner_mg3_80_m75";
 		scope 			= 2;

@@ -147,7 +147,7 @@ class gmre_nor_crew_base : gm_ge_army_crew_80_oli
 #include "cfgMachine_Gunner.hpp"
 #include "cfgMachine_Gunner_Assistant.hpp"
 #include "cfgMedic.hpp"
-#include "cfgMilitary_Police.hpp"
+//#include "cfgMilitary_Police.hpp"
 #include "cfgOfficer.hpp"
 #include "cfgPlatoon_Leader.hpp"
 #include "cfgRifleman.hpp"
