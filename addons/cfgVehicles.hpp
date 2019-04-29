@@ -19,6 +19,7 @@ class gm_ge_army_rifleman_80_ols;
 class gm_ge_army_rifleman_parka_80_oli;
 class gm_ge_army_rifleman_parka_80_ols;
 class gm_ge_army_rifleman_parka_80_win;
+class gm_ge_army_crew_80_oli;
 class gmre_nor_m75_base : gm_ge_army_rifleman_80_ols
 	{
 		_generalMacro 		= "gmre_nor_m75_base";
@@ -31,12 +32,10 @@ class gmre_nor_m75_base : gm_ge_army_rifleman_80_ols
 		nakedUniform 		= "U_BasicBody";
 		uniformClass 		= "gmre_nor_m75";  // Uniform Class
 		backpack 		= "gm_dk_army_backpack_73_oli"; // Backpack Class
-		linkedItems[]        	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
-		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//identical to items[]
 	};
-class gmre_nor_ols_base : gm_ge_army_rifleman_g3a3_80_ols
+class gmre_nor_ols_base : gm_ge_army_rifleman_80_ols
 	{
 		_generalMacro 		= "gmre_nor_ols_base";
 		editorPreview 		= "";
@@ -48,8 +47,6 @@ class gmre_nor_ols_base : gm_ge_army_rifleman_g3a3_80_ols
 		nakedUniform 		= "U_BasicBody";
 		uniformClass 		= "gm_ge_army_uniform_soldier_80_ols";  // Uniform Class
 		backpack 		= "gm_dk_army_backpack_73_oli"; // Backpack Class
-		linkedItems[]        	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
-		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//identical to items[]
 	};
@@ -65,8 +62,6 @@ class gmre_nor_oli_base : gm_ge_army_rifleman_80_oli
 		nakedUniform 		= "U_BasicBody";
 		uniformClass 		= "gm_ge_army_uniform_soldier_80_oli";  // Uniform Class
 		backpack 		= "gm_dk_army_backpack_73_oli"; // Backpack Class
-		linkedItems[]        	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
-		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//identical to items[]
 	};
@@ -82,8 +77,6 @@ class gmre_nor_parka_oli_base : gm_ge_army_rifleman_parka_80_oli
 		nakedUniform 		= "U_BasicBody";
 		uniformClass 		= "gm_ge_army_uniform_soldier_parka_80_oli";  // Uniform Class
 		backpack 		= "gm_dk_army_backpack_73_oli"; // Backpack Class
-		linkedItems[]        	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
-		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//identical to items[]
 	};
@@ -99,8 +92,6 @@ class gmre_nor_parka_ols_base : gm_ge_army_rifleman_parka_80_ols
 		nakedUniform 		= "U_BasicBody";
 		uniformClass 		= "gm_ge_army_uniform_soldier_parka_80_ols";  // Uniform Class
 		backpack 		= "gm_dk_army_backpack_73_oli"; // Backpack Class
-		linkedItems[]        	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
-		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//identical to items[]
 	};
@@ -116,8 +107,6 @@ class gmre_nor_parka_win_base : gm_ge_army_rifleman_parka_80_win
 		nakedUniform 		= "U_BasicBody";
 		uniformClass 		= "gm_dk_army_uniform_soldier_84_win";  // Uniform Class
 		backpack 		= "gm_dk_army_backpack_73_oli"; // Backpack Class
-		linkedItems[]        	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
-		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_rifleman","gm_ge_headgear_m62_net","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//medical supplies
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};//identical to items[]
 	};
@@ -133,8 +122,6 @@ class gmre_nor_crew_base : gm_ge_army_crew_80_oli
 		nakedUniform 		= "U_BasicBody";
 		uniformClass 		= "gm_ge_army_uniform_crew_80_oli";  // Uniform Class
 		backpack 		= "gm_ge_backpack_satchel_80_blk"; // Backpack Class
-		linkedItems[]        	= {"gm_ge_army_vest_80_crew","gm_gc_army_headgear_crewhat_80_blk","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // "vest","headgear","map","compass","watch","radio"
-		respawnLinkedItems[] 	= {"gm_ge_army_vest_80_crew","gm_gc_army_headgear_crewhat_80_blk","ItemMap","gm_ge_army_conat2","gm_watch_kosei_80","ItemRadio"}; // Item's added to the unit. Should be identical to the linkedItems section.
 		items[]              	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};
 		respawnItems[]       	= {"gm_ge_army_gauzeBandage", "gm_ge_army_gauzeCompress"};
 	};
@@ -151,7 +138,7 @@ class gmre_nor_crew_base : gm_ge_army_crew_80_oli
 #include "cfgOfficer.hpp"
 #include "cfgPlatoon_Leader.hpp"
 #include "cfgRifleman.hpp"
-#include "cfgSquad_Leader"
+#include "cfgSquad_Leader.hpp"
 
 /*class gmre_nor_m75_rifleman : gmre_nor_m75_base
 	{
