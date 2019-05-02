@@ -5,7 +5,7 @@ class CfgPatches {
 		};
 		weapons[] = {gmre_nor_m75};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_weapons_F"};
+		requiredAddons[] = {"A3_weapons_F","A3_Characters_F"};
 	};
 };
 
@@ -27,6 +27,10 @@ class CfgVehicleClasses
 		displayName = "Infantry"; // Rename to what you want the sub group of the faction will be. You can have multiple subfactions (VehicleClasses) as long as the class name of the VehicleClass is different. Makes it work with zeus
 		side = 0;
 	};
+};
+class cfgWeapons
+{
+	#include "cfgWeapons.hpp"
 };
 class CfgVehicles
 {
