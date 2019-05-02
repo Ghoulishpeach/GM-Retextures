@@ -5,7 +5,7 @@ class CfgPatches {
 		};
 		weapons[] = {gmre_nor_m75};
 		requiredVersion = 0.1;
-		requiredAddons[] = {"A3_weapons_F"};
+		requiredAddons[] = {"A3_weapons_F","A3_Characters_F"};
 	};
 };
 

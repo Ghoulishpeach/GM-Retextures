@@ -13,7 +13,7 @@ class gmre_nor_Driver_mp2a1_80_oli : gmre_nor_crew_base
 	};
 class grme_nor_crew_mp2a1_80_tank : gmre_nor_crew_base
 	{
-		_generalMacro 		= "grme_nor_crew_mp2a1_80_tank";
+		_generalMacro 		= "gmre_nor_crew_mp2a1_80_tank";
 		scope 			= 2;
 		displayName 		= "Armored Crew"; // In-game name of unit
 		icon 			= "iconMan";
