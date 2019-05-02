@@ -30,26 +30,9 @@ class CfgVehicleClasses
 };
 class cfgWeapons
 {
-        class Uniform_Base;
-	class UniformItem;
-        class gmre_nor_m75 : Uniform_Base
-        {
-                author= "Peach";
-                scope = 2;
-                displayName = "M/75 Field Dress";
-                picture = "";
-                model = "";
-                hiddenSelections[] = {"M/75 Pattern"};
-                hiddenSelectionsTextures[] = {"GMRE\GM-Retextures\addons\Data\gmre_nor_m75.paa"};
-                class ItemInfo : uniformItem
-                	{
-                        	uniformModel = "-";
-                        	uniformClass = gmre_nor_rifleman_g3a3_80_m75;
-                        	containerClass = Supply40;
-                        	mass = 40;
-                	};
-       	};
+	#include "cfgWeapons.hpp"
 };
+
 class CfgVehicles
 {
 
